@@ -1,0 +1,83 @@
+.containerer {
+    width: 35%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 35px;
+    /* скругление углов блока */
+    padding: 29px;
+    /* внутренние поля */
+    margin: 32px auto;
+    /* внешние отступы */
+    float: right;
+    position: relative;
+    right: 222px;
+    top: 100px;
+}
+
+.containermale {
+    width: 35%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 35px;
+    /* скругление углов блока */
+    padding: 26px;
+    /* внутренние поля */
+    margin: 32px auto;
+    /* внешние отступы */
+    float: left;
+    position: relative;
+    left: 222px;
+    top: 100px;
+}
+
+.containerer img {
+    float: left;
+    /* обтекание слева */
+    margin-right: 25px;
+    /* пространство между аватаркой и абзацем */
+    border-radius: 30%;
+    /* скругляет аватарку */
+    width: 50px;
+}
+
+.containermale img {
+    float: left;
+    /* обтекание слева */
+    margin-right: 25px;
+    /* пространство между аватаркой и абзацем */
+    border-radius: 30%;
+    /* скругляет аватарку */
+    width: 50px;
+}
+
+.containerer span {
+    font-size: 28px;
+    margin-right: 15px;
+}
+
+.containermale span {
+    font-size: 28px;
+    margin-right: 15px;
+}
+
+@media (max-width: 450px) {
+    .containerer {
+        text-align: center;
+    }
+    .containerer img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .containermale {
+        text-align: center;
+    }
+    .containermale img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}

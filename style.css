@@ -4,7 +4,7 @@
     }
     
     #cap {
-        background: black;
+        background: #7b68e9;
         height: 90px;
     }
     
@@ -12,6 +12,7 @@
         position: relative;
         height: 70px;
         left: 450px;
+        top: 8px;
     }
     
     #p {
@@ -112,12 +113,12 @@
         position: absolute;
         width: 500px;
         top: 1750px;
-        left: 900px;
+        left: 1100px;
     }
     
     #pisc {
         position: absolute;
-        left: 50px;
+        left: 250px;
         border-radius: 35px;
         top: 1650px;
         width: 800px;
@@ -143,7 +144,7 @@
     
     #end {
         position: absolute;
-        background: black;
+        background: #7b68e9;
         top: 2250px;
         width: 1903px;
     }
