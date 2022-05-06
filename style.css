@@ -43,7 +43,7 @@
     }
     
     .menu a {
-        background: black;
+        background: rgb(0, 0, 0);
         color: rgb(165, 148, 148);
         text-decoration: none;
         display: block;
@@ -136,7 +136,7 @@
     
     #linf {
         position: absolute;
-        border-color: red;
+        border-color: rgb(255, 0, 0);
         border-width: 10px;
         top: 1550px;
         width: 1883px;
@@ -151,7 +151,7 @@
     
     #line {
         position: absolute;
-        border-color: red;
+        border-color: rgb(255, 0, 0);
         border-width: 10px;
         top: 800px;
         width: 1883px;
@@ -163,7 +163,7 @@
     }
     
     body {
-        background: #39383F;
+        background: #39383f;
         font-family: 'Montserrat Alternates', sans-serif;
     }
     
@@ -185,7 +185,7 @@
     }
     
     .item-content {
-        background: #413D4C;
+        background: #262727;
         padding: 40px;
         border-radius: 40px;
     }
@@ -197,7 +197,7 @@
     .item-icon:before {
         content: "";
         font-family: FontAwesome;
-        color: #F09EA3;
+        color: #ffffff;
         font-size: 50px;
         line-height: 1;
     }

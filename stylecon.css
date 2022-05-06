@@ -1,179 +1,178 @@
-                * {
-                    margin: 0;
-                    font-family: 'Montserrat Alternates', sans-serif;
-                    box-sizing: border-box;
-                }
-                
-                .post-wrap {
-                    position: absolute;
-                    left: 300px;
-                    max-width: 1920px;
-                    margin: 0;
-                    display: flex;
-                    justify-content: center;
-                    flex-wrap: wrap;
-                }
-                
-                .post-item {
-                    position: relative;
-                    top: 100px;
-                    padding: 18px;
-                }
-                
-                .post-item-wrap {
-                    position: relative;
-                }
-                
-                .post-item img {
-                    display: block;
-                    width: 100%;
-                }
-                
-                .post-item:hover .post-info {
-                    opacity: 1;
-                }
-                
-                .post-link {
-                    text-decoration: none;
-                }
-                
-                .post-info {
-                    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 100%);
-                    color: white;
-                    opacity: 0;
-                    position: absolute;
-                    bottom: 0;
-                    width: 100%;
-                    transition: .5s linear;
-                    border-radius: 45px;
-                }
-                
-                .post-meta {
-                    text-transform: uppercase;
-                    line-height: 18px;
-                    font-weight: 500;
-                    font-size: 11px;
-                    padding: 0 0 10px 15px;
-                    margin-bottom: 15px;
-                    position: relative;
-                    display: inline-flex;
-                    align-items: center;
-                    border-bottom: 1px solid #ff7760;
-                }
-                
-                .post-date:after {
-                    content: "\2022";
-                    margin: 0 6px;
-                    font-size: 14px;
-                }
-                
-                .post-title {
-                    padding: 0 15px;
-                    font-weight: 600;
-                    margin-bottom: 15px;
-                }
-                
-                @media (min-width: 768px) {
-                    .post-item {
-                        flex-basis: 50%;
-                        flex-shrink: 0;
-                    }
-                }
-                
-                @media (min-width: 960px) {
-                    .post-item {
-                        flex-basis: 33.333333333%;
-                    }
-                }
-                
-                .ava {
-                    border-radius: 45px;
-                    height: 450px;
-                    width: 340px;
-                }
-                
-                .yeban {
-                    position: absolute;
-                    top: 100px;
-                    width: 352px;
-                    left: 1050px;
-                }
-                
-                .contact {
-                    font-size: 35px;
-                    color: rgba(26, 111, 139, 0.774);
-                    padding: 15px;
-                    border-radius: 35px;
-                    background-color: rgb(76, 79, 80);
-                    box-shadow: 0px 0px 32px 3px #000000;
-                    width: 230px;
-                    position: absolute;
-                    left: 1680px;
-                    top: 10px;
-                }
-                
-                #p {
-                    position: relative;
-                    color: antiquewhite;
-                    left: 700px;
-                    font-size: 70px;
-                }
-                
-                #ab {
-                    color: rgba(255, 255, 255, 0.774);
-                    text-decoration: none;
-                    cursor: default;
-                }
-                
-                #log {
-                    position: relative;
-                    left: 700px;
-                    top: 5px;
-                }
-                
-                .map {
-                    position: absolute;
-                    top: 900px;
-                    margin: 0;
-                    width: 1903px;
-                }
-                
-                .tbp-hrt-container {
-                    width: auto;
-                    margin: 0;
-                    display: inline-block;
-                    height: 21px;
-                    line-height: 21px;
-                }
-                
-                .tbp-hrt {
-                    position: relative;
-                    text-align: center;
-                    -webkit-user-select: none;
-                    -moz-user-select: none;
-                    user-select: none;
-                    font-size: 13px!important;
-                }
-                
-                .tbp-hrt.finish:before {
-                    color: #e65a47;
-                    content: "\f004";
-                    font-weight: 400!important;
-                    font-family: fontawesome;
-                }
-                
-                .tbp-hrt.finish:after {
-                    color: #000;
-                    font-weight: 400!important;
-                }
-                
-                .tbp-hrt:after {
-                    content: attr(data-amount) "";
-                    font: normal normal 11px Martel Sans, sans-serif;
-                    color: #000000;
-                    background: transparent;
-                    border-radius: 0;
-                    display: inline-block;
-                    margin: 0 0 0 10px;
-                    padding: 0 10px;
-                }
+* {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
+
+.post-wrap {
+    position: absolute;
+    left: 300px;
+    max-width: 1920px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post-item {
+    position: relative;
+    top: 100px;
+    padding: 18px;
+}
+
+.post-item-wrap {
+    position: relative;
+}
+
+.post-item img {
+    display: block;
+    width: 100%;
+}
+
+.post-item:hover .post-info {
+    opacity: 1;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+.post-info {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 100%);
+    color: white;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: .5s linear;
+    border-radius: 45px;
+}
+
+.post-meta {
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 0 0 10px 15px;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #ff7760;
+}
+
+.post-date:after {
+    content: "\2022";
+    margin: 0 6px;
+    font-size: 14px;
+}
+
+.post-title {
+    padding: 0 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .post-item {
+        flex-basis: 50%;
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 960px) {
+    .post-item {
+        flex-basis: 33.333333333%;
+    }
+}
+
+.ava {
+    border-radius: 45px;
+    height: 450px;
+    width: 340px;
+}
+
+.yeban {
+    position: absolute;
+    top: 100px;
+    width: 352px;
+    left: 1050px;
+}
+
+.contact {
+    font-size: 35px;
+    color: rgba(26, 111, 139, 0.774);
+    padding: 15px;
+    border-radius: 35px;
+    background-color: rgb(76, 79, 80);
+    width: 230px;
+    position: absolute;
+    left: 1%;
+    top: 10px;
+}
+
+#p {
+    position: relative;
+    color: antiquewhite;
+    left: 700px;
+    font-size: 70px;
+}
+
+#ab {
+    color: rgba(255, 255, 255, 0.774);
+    text-decoration: none;
+    cursor: default;
+}
+
+#log {
+    position: relative;
+    left: 700px;
+    top: 5px;
+}
+
+.map {
+    position: absolute;
+    top: 900px;
+    margin: 0;
+    width: 1903px;
+}
+
+.tbp-hrt-container {
+    width: auto;
+    margin: 0;
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+}
+
+.tbp-hrt {
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-size: 13px!important;
+}
+
+.tbp-hrt.finish:before {
+    color: #e65a47;
+    content: "\f004";
+    font-weight: 400!important;
+    font-family: fontawesome;
+}
+
+.tbp-hrt.finish:after {
+    color: #000;
+    font-weight: 400!important;
+}
+
+.tbp-hrt:after {
+    content: attr(data-amount) "";
+    font: normal normal 11px Martel Sans, sans-serif;
+    color: #000000;
+    background: transparent;
+    border-radius: 0;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 0 10px;
+}
